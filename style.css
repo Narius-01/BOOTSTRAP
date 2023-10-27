@@ -2,3 +2,31 @@
     padding: 0;
     margin: 0;
 }
+
+.imgFontSize {
+    width: 115px;
+}
+
+.btn-login--fade {
+    background-color: rgb(238,237,253);
+    color: rgb(117,108,241);
+    border-radius: 25px;
+}
+.nav-item:not(:last-child) {
+    margin-top: 7px;
+}
+
+.nav-item:not(:last-child):hover {
+    text-decoration: underline;
+}
+
+.shadow-sm {
+    box-shadow: 0 1px 3px rgba(197, 196, 210, 0.5);
+}
+
+.font-weight-bolder {
+    font-weight: bolder;
+    background: linear-gradient(to bottom right, rgb(236, 5, 105), rgb(84,72,238), rgb(84,72,238));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
