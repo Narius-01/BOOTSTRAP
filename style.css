@@ -41,17 +41,37 @@ body {
 }
 
 #para {
-    width: 60%;
+    width: 50%;
     font-size: 19px;
 }
 .medium {
     text-align: left;
-    
 }
 
 .mainHead {
     text-align:left;
 }
+
+.btnbtn {
+    width: 250px;
+    height: 80px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.small {
+    width: 50%;
+    text-align: center;
+    padding: 40px;
+    box-shadow: 0 0 5px #ccc;
+    border-radius: 50px;
+}
+ .small #para2 {
+    font-size: large;
+ }
+ .sec {
+    padding-inline: 150px !important;
+ }
 
 @media (max-width: 720px) {
     #para {
@@ -61,6 +81,7 @@ body {
     .medium {
         text-align: initial;
     }
+    
 }
 
 @media (max-width: 960px) and (min-width: 720px) {
@@ -73,9 +94,3 @@ body {
     }
 }
 
-button {
-    width: 250px;
-    height: 80px;
-    border: 1px solid black;
-    border-radius: 20px;
-}
